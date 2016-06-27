@@ -30,7 +30,7 @@
 <p>
 	Un fois la console lancée, il sera donc possible de visionner les erreurs : elles sont souvent indiquées par une coloration rouge et une croix au début de la ligne. Voici un exemple d'erreur, sous Google Chrome : <br><br>
 
-	<img src="/imgs/engine2d-debug-game-1.png" alt="Exemple d'une ligne d'erreur dans la console de Google Chrome">
+	<img src="<?= DOCBASE ?>imgs/engine2d-debug-game-1.png" alt="Exemple d'une ligne d'erreur dans la console de Google Chrome">
 
 	<br>
 

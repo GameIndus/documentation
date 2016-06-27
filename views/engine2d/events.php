@@ -10,7 +10,7 @@
 <p>
 	Pour prendre en compte des évènements, il est essentiel de créer des écouteurs d'évènements. Leur but est "d'écouter" différents évènements afin de lancer certaines actions lors du déclenchement de ces derniers. Par exemple, il est possible de lancer un "écouteur d'évenement" sur le clavier et va détecter l'appui sur une certaine touche de celui-ci. Il est possible de résumer tout cela grâce à ce simple schéma : <br>
 
-	<img src="/imgs/engine2d-events-schema.jpg" alt="Schéma du fonctionnement du système d'évènements">
+	<img src="<?= DOCBASE ?>imgs/engine2d-events-schema.jpg" alt="Schéma du fonctionnement du système d'évènements">
 	<br><br>
 	Grâce à notre moteur de jeu, lancer un écouteur d'évènement est relativement simple : il faut utiliser le gestionnaire d'évènements disponible <small>(nommé EventsManager en anglais)</small>. L'ensemble des écouteurs sont définissables de la sorte : <br>
 </p>

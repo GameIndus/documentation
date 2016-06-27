@@ -10,7 +10,7 @@
 <p>
 	Un comportement permet de décider et de définir une manière d'agir pour un objet. Un seul comportement pourra donc être appliqué sur plusieurs objets. Le fonctionnement d'un comportement sur GameIndus peut être résumé via ce schéma : <br>
 
-	<img src="/imgs/engine2d-behaviors-schema.jpg" alt="Schéma du fonctionnement d'un comportement dans le moteur de jeu de GameIndus">
+	<img src="<?= DOCBASE ?>imgs/engine2d-behaviors-schema.jpg" alt="Schéma du fonctionnement d'un comportement dans le moteur de jeu de GameIndus">
 	<br>
 	Comme indiqué sur le schéma ci-dessus, un comportement possède deux fonctions : une fonction nommée <b>run</b> qui se lancera à la création de l'objet, et une seconde fonction nommée <b>loop</b> qui sera lancée à chaque fois que l'objet en question sera rendu. Un comportement est dynamique : il s'adapte à chaque objet sur lequel on l'a appliqué, donc chaque fonction donne accès à une variable objet qui va contenir l'objet courrant. 
 </p>

@@ -4,7 +4,12 @@ require_once '../site/core/config.php';
 require_once 'core/functions.php';
 
 define('BASE', 'https://gameindus.fr/');
-define('DOCBASE', 'https://docs.gameindus.fr/');
+
+if($_SERVER["SERVER_NAME"] == "docs.gameindus.fr"){
+	define('DOCBASE', 'https://docs.gameindus.fr/');
+}else{
+	define('DOCBASE', dirname($_SERVER["SCRIPT_NAME"]) . "/");
+}
 
 $pageH = (isset($_GET['p'])) ? $_GET['p'] : "index";
 

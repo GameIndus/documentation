@@ -14,8 +14,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/base.css">
-	<link rel="stylesheet" type="text/css" href="/css/documentation.css">
+	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/base.css">
+	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/documentation.css">
 </head>
 <body>
 	<header>
@@ -111,7 +111,7 @@
 	</main>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
-    <script src="/js/base.js"></script>
-    <script src="/js/app.js"></script>
+    <script src="<?= DOCBASE ?>js/base.js"></script>
+    <script src="<?= DOCBASE ?>js/app.js"></script>
 </body>
 </html>

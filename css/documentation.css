@@ -25,7 +25,7 @@ header .logo-container{
 	margin: 30px auto;
 	margin-bottom: 0;
 	
-	background: url(/imgs/logo.png) no-repeat left top;
+	background: url(https://docs.gameindus.fr/imgs/logo.png) no-repeat left top;
 	-webkit-background-size: 120px;
 	     -o-background-size: 120px;
 	        background-size: 120px;
