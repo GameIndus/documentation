@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>GameIndusvfvf | Documentation en ligne</title>
+	<title>GameIndus | Documentation en ligne</title>
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name = "viewport" content="width=device-width,initial-scale = 1, user-scalable = no">
