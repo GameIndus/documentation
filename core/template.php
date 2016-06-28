@@ -16,6 +16,11 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/base.css">
 	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/documentation.css">
+	<style type="text/css">
+	.step-1-7 {
+		display: none;
+	}
+	</style>
 </head>
 <body>
 	<header>
@@ -35,7 +40,7 @@
 		</div>
 
 		<nav class="menu-container">
-			<a<?php if(strpos($page, "start-guide") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>start-guide" title="Guide de démarrage"><div class="menu-item">
+			<a<?php if(strpos($page, "start-guide") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>start-guide/starting" title="Guide de démarrage"><div class="menu-item">
 				Guide de démarrage
 			</div></a>
 			<nav class="menu-container sub-menu">
@@ -94,5 +99,19 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
     <script src="<?= DOCBASE ?>js/base.js"></script>
     <script src="<?= DOCBASE ?>js/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+
+$( "#step1" ).toggle('show');
+})
+
+$("#show-step2").click(function() {
+
+$( "#step1" ).toggle('display');
+
+$( "#step2" ).toggle('show');
+})
+</script> 
 </body>
 </html>

@@ -223,6 +223,11 @@ main .starting-guide-container .hero-2{
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	color: #DDD;
 }
+main .starting-guide-container .hero-3{
+	font-size: 1vw;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	color: #FFF;
+}
 
 
 ::-webkit-scrollbar {
