@@ -16,11 +16,6 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/default.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/base.css">
 	<link rel="stylesheet" type="text/css" href="<?= DOCBASE ?>css/documentation.css">
-	<style type="text/css">
-	.step-1-7 {
-		display: none;
-	}
-	</style>
 </head>
 <body>
 	<header>
@@ -100,18 +95,6 @@
     <script src="<?= DOCBASE ?>js/base.js"></script>
     <script src="<?= DOCBASE ?>js/app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-$(document).ready(function() {
-
-$( "#step1" ).toggle('show');
-})
-
-$("#show-step2").click(function() {
-
-$( "#step1" ).toggle('display');
-
-$( "#step2" ).toggle('show');
-})
-</script> 
+<script src="<?= DOCBASE ?>js/starter-guide.js"></script>
 </body>
 </html>
