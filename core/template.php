@@ -87,26 +87,6 @@
 	</header>
 
 	<main>
-		<!-- <?php if(!in_array($page, Config::$hideBreadcrumb)):  ?>
-			<div class="row-container">
-				<div class="breadcrumbs">
-					<a href="<?= DOCBASE ?>" title="Accueil"><div class="breadcrumb" style="width:50px;padding-right:20px"><i class="fa fa-home"></i></div></a>
-
-					<?php if(strpos($page, "/") === false): ?>
-						<div class="breadcrumb"<?php if(strlen(formatDocBreadCumb($page)) >= 12): echo ' style="width:200px"'; endif; ?>><?= formatDocBreadCumb($page); ?></div>
-					<?php else: $pages = explode("/", $page); ?>
-						<?php $i = 0; foreach ($pages as $v): $len = strlen(formatDocBreadCumb($v)); ?>
-							<?php if($i != count($pages) - 1):  ?>
-								<a href="<?= BASE . ($pages[$i]); ?>" title="<?= formatDocBreadCumb($v); ?>"><div class="breadcrumb arrowright"><?= formatDocBreadCumb($v); ?></div></a>
-							<?php else: ?>
-								<div class="breadcrumb"<?php if($len >= 12): echo ' style="width:200px"'; endif; ?>><?= formatDocBreadCumb($v); ?></div>
-							<?php endif; ?>
-						<?php $i++; endforeach; ?>
-					<?php endif; ?>
-				</div>
-			</div>
-		<?php endif; ?> -->
-
 		<?= $content_for_layout; ?>
 	</main>
 
