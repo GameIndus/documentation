@@ -1,4 +1,4 @@
-<?php 
+<?php  
 require_once 'core/functions.php';
 
 define('BASE', 'https://gameindus.fr/');
