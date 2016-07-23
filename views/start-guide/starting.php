@@ -1,30 +1,46 @@
-<div class="starting-guide-container">
-	<div class="hero-1">Bienvenue sur GameIndus !</div>
-<div id="steps" class="steps">
-	<div class="step" style="margin-bottom:70px;" id="step1">
-	 <div class="hero-2">Tutoriel: Démarrer sur GameIndus <span style="color:#bbb;font-size:0.8em">[1 / 7]</span></div><br/>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      </p>
-      </div>
-      	<div class="step" style="margin-bottom:70px;" id="step2">
-	 <div class="hero-2">Tutoriel: Démarrer sur GameIndus <span style="color:#bbb;font-size:0.8em">[2 / 7]</span></div><br/>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      </p>
-      </div>
-      	<div class="step" style="margin-bottom:70px;" id="step3">
-	 <div class="hero-2">Tutoriel: Démarrer sur GameIndus <span style="color:#bbb;font-size:0.8em">[3 / 7]</span></div><br/>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec finibus sem eget massa interdum ullamcorper. Aliquam erat volutpat. Proin maximus justo lectus, ac molestie leo lacinia nec. Nullam maximus nibh consectetur turpis mattis iaculis. Phasellus nisl diam, gravida et arcu id, feugiat vehicula velit. Morbi id risus sagittis, vulputate lorem nec, cursus magna. Duis in aliquet nunc. Proin placerat a arcu non sollicitudin. Vivamus nec scelerisque nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam semper mauris in eros pellentesque, vitae laoreet lorem efficitur. Mauris egestas accumsan nunc, nec tempus arcu vulputate eget. Maecenas hendrerit est tellus, eget egestas ipsum condimentum nec. Cras vehicula tincidunt eros, sed consectetur urna hendrerit vitae.
-      </p>
-      </div>
-    <div class="btn-steps">
-    <button id="back-step" class="button tutorial-back-step"><b><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> ETAPE PRECEDENTE</b></button>
-    <button id="next-step" class="button tutorial-next-step"><b>ETAPE SUIVANTE <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></b></button>
+<?php  
+$stepsNumber = 7;
+$currentStep = 1;
+
+$previousTutorial = null;
+$nextTutorial     = (object) array("title" => "Inscription", "url" => "start-guide/registation");
+
+?><div class="tutorial-container">
+    <div class="tutorial-header-container">
+        <div class="hero-1">Bienvenue sur GameIndus !</div>
+        <div class="hero-2"><i class="fa fa-rocket"></i> Guide de démarrage</div>
     </div>
-</div>
+    <div class="tutorial-header-bar">
+        <div class="left">
+            <div class="tutorial-badge">1</div>
+            Tutoriel : Démarrer
+        </div>
+        <div class="right">
+            <?php if(!empty($nextTutorial)): ?>
+                <a href="<?= DOCBASE . $nextTutorial->url; ?>" title="<?= $nextTutorial->title; ?>"><div class="action-bar">
+                    <span><?= $nextTutorial->title; ?></span> <i class="fa fa-angle-right"></i> 
+                </div></a>
+            <?php endif; ?>
+
+            <?php if(!empty($previousTutorial)): ?>
+                <a href="<?= DOCBASE . $previousTutorial->url; ?>" title="<?= $previousTutorial->title; ?>"><div class="action-bar">
+                    <i class="fa fa-angle-left"></i> <span><?= $previousTutorial->title; ?></span>
+                </div></a>
+            <?php endif; ?>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+    <div class="tutorial-content">
+
+
+        <div class="clear"></div>
+
+        <?php if(!empty($nextTutorial)): ?>
+            <a href="<?= DOCBASE . $nextTutorial->url; ?>" title="<?= $nextTutorial->title; ?>"><div class="next-tutorial-button">
+                Continuer : <?= $nextTutorial->title; ?> <i class="fa fa-angle-right"></i> 
+            </div></a>
+        <?php endif; ?>
+    </div>
 </div>

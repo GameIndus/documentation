@@ -87,14 +87,11 @@
 	</header>
 
 	<main>
-
 		<?= $content_for_layout; ?>
 	</main>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
     <script src="<?= DOCBASE ?>js/base.js"></script>
     <script src="<?= DOCBASE ?>js/app.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="<?= DOCBASE ?>js/starter-guide.js"></script>
 </body>
 </html>
