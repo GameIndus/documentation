@@ -312,7 +312,20 @@ main .tutorial-container .tutorial-content{
 	width: 100%;height: auto;
 	
 	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
 	padding: 40px 5%;
+}
+main .tutorial-container .tutorial-content h5.title{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	
+	color: #222;
+	margin-bottom: 20px;
+}
+main .tutorial-container .tutorial-content .separation{
+	display: block;position: relative;
+	width: 100%;height: 1px;
+	margin-bottom: 59px;
 }
 main .tutorial-container .tutorial-content .next-tutorial-button{
 	display: block;position: relative;
@@ -346,6 +359,36 @@ main .tutorial-container .tutorial-content .next-tutorial-button:hover{
 	background: #2377aa;	
 }
 
+/* Presentation page */
+.presentation-container .section-container{
+	display: block;position: relative;
+	width: 100%;height: auto;
+	padding: 20px 40px;
+	
+	line-height: 1.6em;
+	background: grey;
+}
+.presentation-container .section-container.blue-container{background:#2980b9}
+.presentation-container .section-container.darkblue-container{background:rgb(21,99,149)}
+.presentation-container .section-container.white-container{background:#fff}
+.presentation-container .section-container.grey-container{background:#EEE}
+
+.presentation-container .section-container h1, .presentation-container .section-container h2,
+.presentation-container .section-container h3, .presentation-container .section-container h4{
+	display: block;position: relative;
+	width: auto;height: auto;
+	
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	color: white;
+}
+.presentation-container .section-container.white-container h1, .presentation-container .section-container.white-container h2,
+.presentation-container .section-container.white-container h3, .presentation-container .section-container.white-container h4{color:#383838}
+.presentation-container .section-container.grey-container h1, .presentation-container .section-container.grey-container h2,
+.presentation-container .section-container.grey-container h3, .presentation-container .section-container.grey-container h4{color:#222}
+
+.presentation-container .section-container h1.hero-1{font-size:2em;text-transform:uppercase;font-weight:bold;margin:10px 0}
+.presentation-container .section-container h2.hero-2{font-size:1.2em}
 
 ::-webkit-scrollbar {
     width: 12px;

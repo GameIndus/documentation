@@ -39,17 +39,14 @@
 				Guide de démarrage
 			</div></a>
 			<nav class="menu-container sub-menu">
-				<a<?php if($page == "start-guide/starting"): ?> class="active"<?php endif; ?>  href="<?= DOCBASE ?>start-guide/starting" title="Démarrer"><div class="menu-item">
+				<a<?php if($page == "start-guide/starting"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>start-guide/starting" title="Démarrer"><div class="menu-item">
 					Démarrer
 				</div></a>
-				<a href="<?= DOCBASE ?>start-guide/registration" title="Inscription"><div class="menu-item">
+				<a<?php if($page == "start-guide/registration"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>start-guide/registration" title="Inscription"><div class="menu-item">
 					Inscription
 				</div></a>
-				<a href="<?= DOCBASE ?>start-guide/editprofile" title="Personnalisation"><div class="menu-item">
+				<a<?php if($page == "start-guide/editprofile"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>start-guide/editprofile" title="Personnalisation"><div class="menu-item">
 					Personnalisation
-				</div></a>
-				<a href="<?= DOCBASE ?>start-guide/getting-started" title="Prise en main"><div class="menu-item">
-					Prise en main
 				</div></a>
 			</nav>
 
@@ -68,17 +65,14 @@
 				</div></a>
 			</nav>
 
-			<a href="<?= DOCBASE ?>graphics" title="Graphique"><div class="menu-item">
-				Graphique
-			</div></a>
-			<a href="<?= DOCBASE ?>physics" title="Physique"><div class="menu-item">
-				Physique
+			<a href="<?= DOCBASE ?>editor" title="Editeur"><div class="menu-item">
+				Editeur
 			</div></a>
 			<a href="<?= DOCBASE ?>multiplayer" title="Mutlijoueur"><div class="menu-item">
-				Multijoueur
+				Multijoueur <span style="color:red;font-weight:bold;font-size:0.7em;margin-left:10px">[BIENTOT]</span>
 			</div></a>
 			<a href="<?= DOCBASE ?>audio" title="Audio"><div class="menu-item">
-				Audio
+				Audio <span style="color:red;font-weight:bold;font-size:0.7em;margin-left:10px">[BIENTOT]</span>
 			</div></a>
 			<a href="<?= DOCBASE ?>export" title="Publier son jeu"><div class="menu-item">
 				Publier son jeu
