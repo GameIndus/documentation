@@ -50,18 +50,18 @@
 				</div></a>
 			</nav>
 
-			<a<?php if(strpos($page, "project") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>project" title="Projet"><div class="menu-item">
+			<a<?php if(strpos($page, "project") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>project/how-to-create" title="Projet"><div class="menu-item">
 				Gérer son projet
 			</div></a>
 			<nav class="menu-container sub-menu">
-				<a href="<?= DOCBASE ?>project/how-to-create" title="Créer un projet/jeu"><div class="menu-item">
+				<a<?php if($page == "project/how-to-create"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>project/how-to-create" title="Créer un projet/jeu"><div class="menu-item">
 					Créer un projet/jeu
 				</div></a>
-				<a href="<?= DOCBASE ?>project/invite-friend" title="Inviter un ami"><div class="menu-item">
+				<a<?php if($page == "project/invite-friend"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>project/invite-friend" title="Inviter un ami"><div class="menu-item">
 					Inviter un ami
 				</div></a>
-				<a href="<?= DOCBASE ?>project/manage-ranks" title="estion des grades"><div class="menu-item">
-					Gestion des grades
+				<a<?php if($page == "project/manage-members"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>project/manage-members" title="Gestion des membres"><div class="menu-item">
+					Gestion des membres
 				</div></a>
 			</nav>
 
@@ -74,9 +74,17 @@
 			<a href="<?= DOCBASE ?>audio" title="Audio"><div class="menu-item">
 				Audio <span style="color:red;font-weight:bold;font-size:0.7em;margin-left:10px">[BIENTOT]</span>
 			</div></a>
-			<a href="<?= DOCBASE ?>export" title="Publier son jeu"><div class="menu-item">
+			<a<?php if(strpos($page, "export") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>export/debug-game" title="Publier son jeu"><div class="menu-item">
 				Publier son jeu
 			</div></a>
+			<nav class="menu-container sub-menu">
+				<a<?php if($page == "export/debug-game"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>export/debug-game" title="Déboguer un jeu"><div class="menu-item">
+					Déboguer un jeu
+				</div></a>
+				<a<?php if($page == "export/publish-game"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>export/publish-game" title="Exporter un jeu"><div class="menu-item">
+					Exporter un jeu
+				</div></a>
+			</nav>
 		</nav>
 	</header>
 
