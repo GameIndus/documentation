@@ -52,7 +52,7 @@ $nextTutorial     = (object) array("title" => "Inviter un ami", "url" => "projec
         <div class="separation"></div>
         <h5 class="title">3. Accéder à l'éditeur pour créer son jeu</h5>
 
-        Une fois votre projet bien configurée, vous pouvez passer à la création de ce dernier. Pour cela, il faut accéder à l'éditeur de projet/jeu. Pour y accéder, c'est très simple : il vous suffit de vous rendre sur une des pages de votre projet, via l'oeil et de cliquer sur <b>Accéder à l'éditeur</b>, ou tout simplement en cliquant sur la baguette magique, en survolant la boîte de projet dans la page <b>Mon compte</b> ou <b>Mes jeux</b> (voir ci-dessous).
+        Une fois votre projet bien configurée, vous pouvez passer à la création de ce dernier. Pour cela, il faut accéder à l'éditeur de projet/jeu. Pour y accéder, c'est très simple : il vous suffit de vous rendre sur une des pages de votre projet, via l'oeil et de cliquer sur <b>Accéder à l'éditeur</b>, ou tout simplement en cliquant sur la baguette magique lors du survol de la boîte de projet dans la page <b>Mon compte</b> ou <b>Mes jeux</b> (voir ci-dessous).
 
         <br><br>
         <img src="<?= DOCBASE ?>imgs/project-account-menu.png" alt="Survol de la boîte de projet" style="display:block;margin:0 auto">
