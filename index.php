@@ -6,7 +6,7 @@ define('BASE', 'https://gameindus.fr/');
 if($_SERVER["SERVER_NAME"] == "docs.gameindus.fr"){
 	define('DOCBASE', 'https://docs.gameindus.fr/');
 }else{
-	define('DOCBASE', dirname($_SERVER["SCRIPT_NAME"]) . "/");
+	define('DOCBASE', dirname($_SERVER["SCRIPT_NAME"]));
 }
 
 $pageH     = (isset($_GET['p'])) ? $_GET['p'] : "index";
