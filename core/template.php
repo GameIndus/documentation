@@ -110,7 +110,7 @@
 					</div></a>
 				</nav>
 
-				<a<?php if(strpos($page, "scripting/scenes") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>scripting/scenes/starting" title="Les scènes"><div class="menu-item">
+				<a<?php if(strpos($page, "scripting/scenes") !== false): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>scripting/scenes/how-to-create" title="Les scènes"><div class="menu-item">
 					Les scènes
 				</div></a>
 				<nav class="menu-container sub-menu">
@@ -120,8 +120,8 @@
 					<a<?php if($page == "scripting/scenes/manage-scenes"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>scripting/scenes/manage-scenes" title="Manipuler les scènes"><div class="menu-item">
 						Manipuler les scènes
 					</div></a>
-					<a<?php if($page == "scripting/scenes/add-tilemap"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>scripting/scenes/add-tilemap" title="Ajouter une carte"><div class="menu-item">
-						Ajouter une carte
+					<a<?php if($page == "scripting/scenes/methods"): ?> class="active"<?php endif; ?> href="<?= DOCBASE ?>scripting/scenes/methods" title="Méthodes"><div class="menu-item item-methods">
+						Méthodes disponibles
 					</div></a>
 				</nav>
 

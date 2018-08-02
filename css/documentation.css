@@ -30,7 +30,7 @@ header .logo-container{
 	margin: 30px auto;
 	margin-bottom: 0;
 	
-	background: url(https://docs.gameindus.fr/imgs/logo.png) no-repeat left top;
+	background: url(/imgs/logo.png) no-repeat left top;
 	-webkit-background-size: 120px;
 	     -o-background-size: 120px;
 	        background-size: 120px;
@@ -122,12 +122,16 @@ header nav.menu-container .menu-item{
 	        transition: ease-out .2s;
 }
 header nav.menu-container .menu-item:hover{background:#eee}
+header nav.menu-container .menu-item.item-methods{background:rgba(241,196,15,0.4)}
+header nav.menu-container .menu-item.item-methods:hover{background:rgba(241,196,15,0.5)}
 header nav.menu-container .sub-menu{display:none;margin:0}
 header nav.menu-container .sub-menu .menu-item{padding-left:30px}
 header nav.menu-container .sub-menu .menu-item{font-weight:400}
 header nav.menu-container a.active .menu-item{background:#DEDEDE}
 header nav.menu-container a.active + .sub-menu{display:block;height:0;overflow:hidden;-webkit-transition:ease-out .25s;-moz-transition:ease-out .25s;-ms-transition:ease-out .25s;-o-transition:ease-out .25s;transition:ease-out .25s}
 header nav.menu-container .sub-menu a.active .menu-item{background:#E6E6E6;border-left:5px solid #2980B9}
+
+header nav.menu-container .sub-menu a.active .menu-item.item-methods{background:rgba(241,196,15,0.6);border-left:5px solid rgb(241,196,15)}
 
 
 main{
