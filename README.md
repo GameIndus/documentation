@@ -1,13 +1,24 @@
-# GameIndus: our documentation!
+<p align="center">
+    <img src="https://i.imgur.com/2Ax3HgL.png" alt="Logo de GameIndus" width="600">
+</p>
 
-[![Follow us](https://img.shields.io/twitter/follow/GameIndus.svg?style=social&label=Follow%20us%20on%20Twitter)](https://twitter.com/GameIndus)
-[![Discord](https://img.shields.io/discord/177737791680151553.svg)](https://discord.gg/fvYYeD5) \
-[![Licence](https://img.shields.io/badge/License-CC%20BY--SA%203.0-green.svg)](https://github.com/GameIndus/documentation/blob/master/LICENSE.md)
-![Last commit](https://img.shields.io/github/last-commit/gameindus/documentation.svg)
+<h1 align="center">Documentation</h1>
+<h4 align="center">
+The French online GameIndus documentation
+</h4>
+
+<p align="center">
+    <a href="https://github.com/GameIndus/documentation/commits/develop">
+        <img src="https://img.shields.io/github/last-commit/GameIndus/documentation/master.svg" alt="GitHub last commit">
+    </a>
+    <a href="https://github.com/GameIndus/documentation/blob/master/LICENSE.md">
+        <img src="https://img.shields.io/badge/License-GPL--3.0-green.svg" alt="License">
+    </a>
+</p>
 
 Website realized by [@Utarwyn](https://github.com/utarwyn) since 2015 in the project context "GameIndus". This website is a documentation for all services of the GameIndus platform (global usage, editor, engines). Today this documentation has only been  written in French.
 
-## What is the project GameIndus?
+## What is the project "GameIndus"?
 
 GameIndus is a free online platform to imagine, create and publish your game with ease!
 We have a very intuitive editor to familiarize the most talented developers and beginners. 
@@ -20,8 +31,20 @@ Projects can be exported to online and desktop platforms and mobile devices.
 
 ## How to start the documentation website by myself?
 
-> More info soon.
+1. Clone this repository
+2. Be sure that you are using **PHP v5.4+**
+3. Create a virtual host rooting to the `public` folder of the project
+4. *(You can also start the PHP development server to test the website)*
 
 **If you have any issue with the documentation website or the source code, don't hesitate to open a ticket in this repository.**
 
-Developed with :heart: since 2015.
+
+## License
+
+This content is released under the (https://opensource.org/licenses/GPL-3.0) GPL-3.0 License.\
+See [LICENSE](https://github.com/GameIndus/status/blob/master/LICENSE) file
+
+---
+
+> GitHub [@Gameindus](https://github.com/gameindus) &nbsp;&middot;&nbsp;
+> Twitter [@GameIndus](https://twitter.com/GameIndus)

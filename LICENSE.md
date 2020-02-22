@@ -49,10 +49,10 @@ The source code (CSS files etc.) is licensed under the terms of the MIT
 license.
 
 The details can be found on the [Font Awesome
-homepage](http://fontawesome.io/license/).
+homepage](https://fontawesome.com/license/free).
 
 You can fetch a copy of these licenses from the
-[SIL homepage](http://scripts.sil.org/OFL) and the [Open Source Initiative's
+[SIL homepage](https://scripts.sil.org/OFL) and the [Open Source Initiative's
 homepage](https://opensource.org/licenses/MIT).
 
 
