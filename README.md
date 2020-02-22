@@ -18,6 +18,8 @@ The French online GameIndus documentation
 
 Website realized by [@Utarwyn](https://github.com/utarwyn) since 2015 in the project context "GameIndus". This website is a documentation for all services of the GameIndus platform (global usage, editor, engines). Today this documentation has only been  written in French.
 
+![Documentation preview](https://i.imgur.com/kpVBWCU.png)
+
 ## What is the project "GameIndus"?
 
 GameIndus is a free online platform to imagine, create and publish your game with ease!
@@ -42,7 +44,7 @@ Projects can be exported to online and desktop platforms and mobile devices.
 ## License
 
 This content is released under the (https://opensource.org/licenses/GPL-3.0) GPL-3.0 License.\
-See [LICENSE](https://github.com/GameIndus/status/blob/master/LICENSE) file
+See [LICENSE](https://github.com/GameIndus/documentation/blob/master/LICENSE.md) file
 
 ---
 
